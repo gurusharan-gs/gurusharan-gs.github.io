@@ -1,286 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Gurusharan | Java Backend Developer</title>
-          <link rel="stylesheet" href="portfolio.css">
-          <link rel="shortcut icon" type="image/png" href="images/c-alphabet-letter-logo-for-business-and-company-with-wings-and-black-and-white-grey-color-corporate-brading-and-lettering-icon-with-simple-design-vector.webp">
-          <script src="https://kit.fontawesome.com/6f3f4b23f1.js" crossorigin="anonymous"></script>
-          <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-      </head>
-<body>
-     <div id="header">
-          <div class="container">
-              <nav>
-                  <div class="logo"><a href="#">Guru<span>sharan.</span></a></div>
-                  <ul id="sidemenu">
-                      <li><a href="#header">Home</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#skill">Skills</a></li>
-                      <li><a href="#techstack">Tech Stack</a></li>
-                      <li><a href="#mywork">Work</a></li>
-                      <li><a href="#stat">Stats</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                      <i class="fas fa-times" onclick="closemenu()"></i>
-                  </ul>
-                  <i class="fas fa-bars" onclick="openmenu()"></i>
-              </nav>
-              <div class="header-text">
-                  <h3>Hello, my name is</h3>
-                  <h1>Guru<span style="color: #ff1744;">sharan</span></h1>
-                  <h2>And I'm a <span class="auto-input"></span></h2>
-              </div>
-              <a href="images/Gurusharan_Resume.pdf" download class="btn btn2">Download Resume</a>
-          </div>  
-      </div>
-
-
-        <!-- -------------------about me section------------------- -->
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurusharan | Java Backend Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/c-alphabet-letter-logo-for-business-and-company-with-wings-and-black-and-white-grey-color-corporate-brading-and-lettering-icon-with-simple-design-vector.webp">
+    <script src="https://kit.fontawesome.com/6f3f4b23f1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <nav>
+            <div class="logo"><a href="#">Guru<span>sharan.</span></a></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <!-- <li><a href="#techstack">Tech Stack</a></li> -->
+                <li><a href="#mywork">Work</a></li>
+                <!-- <li><a href="#stat">Stats</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="images/Gurusharan _Resume.pdf" download class="btn2">Resume</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+      
+            
+            <div class="header-text">
+                <h3>Hello, my name is</h3>
+                <h1>Guru<span style="color: #ff1744;">sharan</span></h1>
+                <h2>And I'm a <span class="auto-input"></span></h2>
+            </div>
+            <a href="images/Gurusharan _Resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        
+    </div>
+    <!-- -------------------about me section------------------- -->
     <div id="about">
-     <div class="container">
-         <div class="row">
-             <div class="about-col-1">
-                 <img src="images/profile-pic (2).png"  alt="">
-             </div>
-             <div class="about-col-2">
-                 <h1 class="sub-title">About Me</h1>
-                 <p>Java Backend Developer with the ability to learn and collaborate in Rapidly changing environments and compositions. Worked intensively through 1200+ hours of Bootcamp Structure learning of Java, SpringBoot, Hibernate, AWS, JavaScript, HTML5 & CSS3.</p>
-             <div class="tab-title">
-                 <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
-                 <p class="tab-links active-link" onclick="opentab('soft skills')">Soft Skills</p>
-                 <p class="tab-links active-link" onclick="opentab('education')">Education</p>
-             </div>
-             <div class="tab-contents active-tab" id="skills">
-                 <ul>
-                     <li><span>Java Backend Development</span><br> <span class="co">Java </span><span class="co">| Spring </span><span class="co">| Hibernate </span><span class="co">| SQL </span><span class="co">| AWS </span><span class="co">| GIT</span></li>
-                     <li><span>Frontend Development</span><br><span class="co">HTML5 </span><span class="co">| CSS3 </span><span class="co">| JavaScript</span></li>
-                     <li><span>Data Structure & Algorithms</span><br><span class="co">Arrays/Strings </span><span class="co">| Stacks/Queues </span><span class="co">| Linked List </span><span class="co">| Recursion</span></li>
-                 </ul>
-             </div>
-             <div class="tab-contents" id="soft skills">
-                 <ul>
-                     <li><span>Self-learning</span><br> <span class="co">Having the skill of self-learning can greatly benefit a developer at their workplace.</span></li>
-                     <li><span>Time management</span><br><span class="co">Being time-conscious can help a developer meet deadlines and give exact estimates.</span></li>
-                     <li><span>Problem-solving skills</span><br><span class="co">It's about designing operating systems, maintaining software systems, or fixing bugs. </span></li>
-                 </ul>
-             </div>
-             <div class="tab-contents" id="education">
-                 <ul>
-                     <li><span>Full Stack Web Development</span><br>Masai School, Bengaluru<br>March 2022 - October 2022</li>
-                     <li><span>Diploma in Mechanical Engineering</span><br>Hkes Boys Polytechnic College<br>July 2017 - October 2020</li>
-                 </ul>
-             </div>
-             </div>
-         </div>
-     </div>
- </div>
-
-
- <!-- ----------------teck stack---------------------------------------- -->
-
- <div id="techstack">
-     <div class="container">
-         <h1 class="sub-title">Tech Stack</h1>
-         <div class="til">
-             <h2>Back<span>end</span></h2>
-             <h2>Front<span>end</span></h2>
-         </div>
-         <div class="stack">
-             <ul class="tech">
-                 <li style="--i:4;--clr:#F29111"><a href=""><span><i class="fa-brands fa-java"></i></span> Java</a></li>
-                 <li style="--i:3;--clr:blue"><a href=""><span><i class="fa-solid fa-database"></i></span> SQL</a></li>
-                 <li style="--i:2;--clr:#26AEE7 "><a href=""><span><i class="fa-brands fa-aws"></i></span> AWS</a></li>
-                 <li style="--i:1;--clr:  #F1502F"><a href=""><span><i class="fa-brands fa-git"></i></span> Git</a></li>
-             </ul>
-             <ul class="tech">
-                 <li style="--i:4;--clr:#F0DB4F"><a href=""><span><i class="fa-brands fa-js"></i></span> JavaScript</a></li>
-                 <li style="--i:3;--clr:#F06529"><a href=""><span><i class="fa-brands fa-html5"></i></span> HTML</a></li>
-                 <li style="--i:2;--clr:#264de4"><a href=""><span><i class="fa-brands fa-css3-alt"></i></span> CSS</a></li>
-                 <li style="--i:1;--clr:grey"><a href=""><span><i class="fa-brands fa-github"></i></span> Github</a></li>
-             </ul>
-      </div>
-     </div>
- </div>
-
- <!-- -------------------skills section------------------- -->
- <div id="skill">
-     <div class="container">
-         <h1 class="sub-title" style="margin-top: 10%;">My Skills</h1>
-         <div class="skills-list">
-             <div>
-                 <i class="fa-brands fa-java"></i>
-                 <h2>Java Backend Development</h2>
-                 <p>Java is capable of handling more robust programming tasks than its front end counterpart. Java is an incredibly useful skill for back end developers;it's a high-performance language that supports object-oriented programming and can run in any system that supports a Java Virtual machine.</p>
-             </div>
-             <div>
-                 <i class="fa-solid fa-code"></i>
-                 <h2>Frontend Development</h2>
-                 <p>Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages using HTML5 / CSS & JavaScript.</p>
-             </div>
-             <div>
-                 <i class="fa-solid fa-cubes"></i>
-                 <h2>Data Structure & Algorithms</h2>
-                 <p>A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem.Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
-             </div>
-             <div>
-                 <i class="fa-solid fa-face-smile"></i>
-                 <h2>Communication Effectiveness</h2>
-                 <p>Effective communication is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied.</p>
-             </div>
-         </div>
-     </div>
- </div>
-
-
-
- <div id="mywork">
-     <div class="container">
-         <h1 class="sub-title">My Work</h1>
-         <div class="work-list">
-             <div class="work">
-                 <img src="images/indigo.png" alt="">
-                 <div class="layer">
-                     <h3>Indiegogo Clone</h3>
-                     <p>Indiegogo is an American crowdfunding website founded in 2008 by Danae Ringelmann, Slava Rubin, and Eric Schell.</p>
-                     <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                     <span><a href="https://github.com/gr7800/daily-wound-486"><i class="fa-brands fa-github"></i></a><a href="https://630b1f116d86c219229688db--phenomenal-meerkat-9d4c9f.netlify.app"><i  class="fa-solid fa-link"></i></a></span>
-                 </div>
-             </div>
-             <div class="work">
-                 <img src="images/dnaIndia.png" alt="">
-                 <div class="layer">
-                     <h3>DNA India Clone</h3>
-                     <p>DNA is an English broadsheet daily owned by Diligent Media Corporation, an Essel Group company.</p>
-                     <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                     <span><a href="https://github.com/rahulbnc463/Team_DNA"><i class="fa-brands fa-github"></i></a><a href="https://chimerical-naiad-4981fc.netlify.app"><i class="fa-solid fa-link"></i></a></span>
-                 </div>
-             </div>
-             <div class="work">
-                 <img src="images/nifity.png" alt="">
-                 <div class="layer">
-                     <h3>Nifitypm Clone</h3>
-                     <p>Nifty is the remote collaboration hub to manage projects, tasks, and communications — all in one place</p>
-                     <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                     <span><a href="https://github.com/vinu7461/disillusioned-respect-348"><i class="fa-brands fa-github"></i></a><a href="https://tourmaline-shortbread-007372.netlify.app"><i class="fa-solid fa-link"></i></a></span>
-                 </div>
-             </div> 
-             <div class="work">
-                 <img src="images/todo.png" alt="">
-                 <div class="layer">
-                     <h3>Todo</h3>
-                     <p>List everything that you have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom.</p>
-                     <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                     <span><a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-3-211/day-3/you/CRUD/Front-END"><i class="fa-brands fa-github"></i></a><a href="https://fastidious-faloodeh-9e0545.netlify.app"><i  class="fa-solid fa-link"></i></a></span>
-                 </div>
-             </div>
-             
-             <div class="work">
-                <img src="images/amzon-prime.png" alt="">
-                <div class="layer">
-                    <h3>Amazon Prime</h3>
-                    <p>Amazon Prime Video offers unlimited streaming of movies and TV episodes for paid or free trial members.</p>
-                    <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                    <span><a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-2-211/day-3/you"><i class="fa-brands fa-github"></i></a><a href="https://shimmering-maamoul-2b1868.netlify.app/"><i  class="fa-solid fa-link"></i></a></span>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile-pic (2).png"  alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Java Backend Developer with the ability to learn and collaborate in Rapidly changing environments and compositions. Worked intensively through 1200+ hours of Bootcamp Structure learning of Java, SpringBoot, Hibernate, AWS, JavaScript, HTML5 & CSS3.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('soft skills')">Soft Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java Backend Development</span><br> <span class="co">Java </span><span class="co">| Spring </span><span class="co">| Hibernate </span><span class="co">| SQL </span><span class="co">| AWS </span><span class="co">| GIT</span></li>
+                        <li><span>Frontend Development</span><br><span class="co">HTML5 </span><span class="co">| CSS3 </span><span class="co">| JavaScript</span></li>
+                        <li><span>Data Structure & Algorithms</span><br><span class="co">Arrays/Strings </span><span class="co">| Stacks/Queues </span><span class="co">| Linked List </span><span class="co">| Recursion</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="soft skills">
+                    <ul>
+                        <li><span>Self-learning</span><br> <span class="co">Having the skill of self-learning can greatly benefit a developer at their workplace.</span></li>
+                        <li><span>Time management</span><br><span class="co">Being time-conscious can help a developer meet deadlines and give exact estimates.</span></li>
+                        <li><span>Problem-solving skills</span><br><span class="co">It's about designing operating systems, maintaining software systems, or fixing bugs. </span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Full Stack Web Development</span><br>Masai School, Bengaluru<br>April 2022 - December 2022</li>
+                        <li><span>Higher Secondary Education</span><br>Cosmos Public School, Delhi<br> June 2020 - December 2021</li>
+                    </ul>
+                </div>
                 </div>
             </div>
-             
-             <div class="work">
-                <img src="images/alarm clock.png" alt="">
-                <div class="layer">
-                    <h3>Alarm Clock</h3>
-                    <p>Set the hour and minute for the online alarm clock. The alarm message will appear, and the preselected sound will be played at the set time.</p>
-                    <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
-                    <span><a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-1-211/day-3/assignments/TASK%20REMINDER"><i class="fa-brands fa-github"></i></a><a href="https://whimsical-yeot-1da0bb.netlify.app/"><i  class="fa-solid fa-link"></i></a></span>
+        </div>
+    </div>
+    
+<!-- ----------------teck stack---------------------------------------- -->
+
+    <div id="techstack">
+        <div class="container">
+            <h1 class="sub-title">Tech Stack</h1>
+            <div class="til">
+                <h2>Back<span style="color: #ff1744;">end</span></h2>
+                <h2>Front<span style="color: #ff1744;">end</span></h2>
+            </div>
+            <div class="stack">
+                <ul class="tech">
+                    <li style="--i:4;--clr:#F29111"><a href=""><span><i class="fa-brands fa-java"></i></span> Java</a></li>
+                    <li style="--i:3;--clr:blue"><a href=""><span><i class="fa-solid fa-database"></i></span> SQL</a></li>
+                    <li style="--i:2;--clr:#26AEE7 "><a href=""><span><i class="fa-brands fa-aws"></i></span> AWS</a></li>
+                    <li style="--i:1;--clr:  #F1502F"><a href=""><span><i class="fa-brands fa-git"></i></span> Git</a></li>
+                </ul>
+                <ul class="tech">
+                    <li style="--i:4;--clr:#F0DB4F"><a href=""><span><i class="fa-brands fa-js"></i></span> JavaScript</a></li>
+                    <li style="--i:3;--clr:#F06529"><a href=""><span><i class="fa-brands fa-html5"></i></span> HTML</a></li>
+                    <li style="--i:2;--clr:#264de4"><a href=""><span><i class="fa-brands fa-css3-alt"></i></span> CSS</a></li>
+                    <li style="--i:1;--clr:grey"><a href=""><span><i class="fa-brands fa-github"></i></span> Github</a></li>
+                </ul>
+         </div>
+        </div>
+    </div>
+
+    <!-- -------------------skills section------------------- -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title" style="margin-top: 10%;">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Backend Development</h2>
+                    <p>Java is capable of handling more robust programming tasks than its front end counterpart. Java is an incredibly useful skill for back end developers;it's a high-performance language that supports object-oriented programming and can run in any system that supports a Java Virtual machine.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages using HTML5 / CSS & JavaScript.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cubes"></i>
+                    <h2>Data Structure & Algorithms</h2>
+                    <p>A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem.Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-face-smile"></i>
+                    <h2>Communication Effectiveness</h2>
+                    <p>Effective communication is the process of exchanging ideas, thoughts, opinions, knowledge, and data so that the message is received and understood with clarity and purpose. When we communicate effectively, both the sender and receiver feel satisfied.</p>
                 </div>
             </div>
-               
-         </div>
-         <a href="#" class="btn">See More</a>
-     </div>
- </div>
+        </div>
+    </div>
 
 
- 
+    <!-- -------------------work section------------------- -->
+    
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/indigo.png" alt="">
+                    <div class="layer">
+                        <h3>Indiegogo Clone</h3>
+                        <p>Indiegogo is an American crowdfunding website founded in 2008 by Danae Ringelmann, Slava Rubin, and Eric Schell.</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                            <a href="https://github.com/gr7800/daily-wound-486" class="btnl">Code</a>
+                            <a href="https://630b1f116d86c219229688db--phenomenal-meerkat-9d4c9f.netlify.app" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/dnaIndia.png" alt="">
+                    <div class="layer">
+                        <h3>DNA India Clone</h3>
+                        <p>DNA is an English broadsheet daily owned by Diligent Media Corporation, an Essel Group company.</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                        <a href="https://github.com/rahulbnc463/Team_DNA" class="btnl">Code</a>
+                        <a href="https://chimerical-naiad-4981fc.netlify.app" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/nifity.png" alt="">
+                    <div class="layer">
+                        <h3>Nifitypm Clone</h3>
+                        <p>Nifty is the remote collaboration hub to manage projects, tasks, and communications — all in one place</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                        <a href="https://github.com/vinu7461/disillusioned-respect-348" class="btnl">Code</a>
+                        <a href="https://tourmaline-shortbread-007372.netlify.app" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="images/todo.png" alt="">
+                    <div class="layer">
+                        <h3>Todo</h3>
+                        <p>List everything that you have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom.</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                        <a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-3-211/day-3/you/CRUD/Front-END" class="btnl">Code</a>
+                        <a href="https://fastidious-faloodeh-9e0545.netlify.app" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/amzon-prime.png" alt="">
+                    <div class="layer">
+                        <h3>Amazon Prime</h3>
+                        <p>Amazon Prime Video offers unlimited streaming of movies and TV episodes for paid or free trial members.</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                        <a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-2-211/day-3/you" class="btnl">Code</a>
+                        <a href="https://shimmering-maamoul-2b1868.netlify.app/" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/alarm clock.png" alt="">
+                    <div class="layer">
+                        <h3>Alarm Clock</h3>
+                        <p>Set the hour and minute for the online alarm clock. The alarm message will appear, and the preselected sound will be played at the set time.</p>
+                        <p>Tech Stack :- HTML5 | CSS3 | JavaScript</p>
+                        <div class="glink">
+                        <a href="https://github.com/masai-course/Gurusharan_-fw18_0391/tree/master/unit-3/sprint-1-211/day-3/assignments/TASK%20REMINDER" class="btnl">Code</a>
+                        <a href="https://shimmering-maamoul-2b1868.netlify.app/" class="btnl">Live</a>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+
     <!-- -----------------------stats section--------------------------- -->
  
     <div class="container" id="stat">
-     <h1 class="sub-title">My Stats</h1>
+        <h1 class="sub-title">My Stats</h1>
 
-     <div class="stats" style="width: 100%;">
-         <img src="https://github-readme-stats.vercel.app/api?username=gurusharan-gs&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
-         <img src="https://github-readme-streak-stats.herokuapp.com/?user=gurusharan-gs&theme=dark&hide_border=false" alt="">
-         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gurusharan-gs&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
-     </div>
+        <div class="stats" style="width: 100%;">
+            <img src="https://github-readme-stats.vercel.app/api?username=gurusharan-gs&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=gurusharan-gs&theme=dark&hide_border=false" alt="">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gurusharan-gs&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+        </div>
 
-     <div class="calendar" style=" color: #f49812" >
-         <!-- Loading stuff -->
-         Loading the data just for you.
-     </div>
+        <div class="calendar" style=" color: #ff1744" >
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
 
- </div>
+    </div>
 
- <script
-src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+    <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
 ></script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-rel="stylesheet"
-href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+ <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
 <!-- Prepare a container for your calendar. -->
 
 
 <script>
- GitHubCalendar(".calendar", "gurusharan-gs");
+    GitHubCalendar(".calendar", "gurusharan-gs");
 
- GitHubCalendar(".calendar", "gurusharan-gs", { responsive: true });
+    GitHubCalendar(".calendar", "gurusharan-gs", { responsive: true });
 </script>
+
 
 
 
      <!-- -------------------contact section------------------- -->
 
-     <div id="contact">
-          <div class="container">
-              <div class="row">
-                  <div class="contact-left">
-                      <h1 class="sub-title">Contact Me</h1>
-                      <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gurusharanulagadde143@gmail.com</p>
-                      <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91-8494800588</p>
-                      <div class="social-icons">
-                          <a href="https://www.linkedin.com/in/gurusharanu/"><i class="fa-brands fa-linkedin"></i></a>
-                          <a href="https://github.com/gurusharan-gs"><i class="fa-brands fa-square-github"></i></a>
-                          <a href="https://twitter.com/GurusharanUlag1"><i class="fa-brands fa-square-twitter"></i></a>
-                      </div>
-                      <!-- <a href="images/Chetan_Resume.pdf" download class="btn btn2">Download Resume</a> -->
-                  </div>
-                  <div class="contact-right">
-                      <form>
-                          <input type="text" name="Name" placeholder="Your Name" required>
-                          <input type="email" name="email" placeholder="Your Email" required>
-                          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                          <button type="submit" class="btn btn2" id="s">Submit</button>
-                      </form>
-                  </div>
-              </div>
-          </div>
-          <div class="copyright">
-              <p>Copyright © Gurusharan. <i class="fa-sharp fa-solid fa-heart"></i> All Rights Reserved</p>
-          </div>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  </body>
-  </html>
-  <script src="portfolio.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  
-  
-  
-
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gurusharanulagadde143@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91-8494800588</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gurusharanu/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/gurusharan-gs"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/GurusharanUlag1"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <!-- <a href="images/Chetan_Resume.pdf" download class="btn btn2">Download Resume</a> -->
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" id="s">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Gurusharan. <i class="fa-sharp fa-solid fa-heart"></i> All Rights Reserved</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
 </html>
+<script src="portfolio.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+

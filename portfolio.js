@@ -1,3 +1,4 @@
+
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -38,4 +39,4 @@ let typed = new Typed(".auto-input",{
     loop : true
 })
 
-   
+
