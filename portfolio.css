@@ -739,7 +739,7 @@ nav .fas{
         font-size: 22px;
     }
     .header-text h1{
-        font-size: 34px;
+        font-size: 35px;
         /* padding-top: 15%; */
     }
     .header-text h2{
@@ -839,13 +839,20 @@ nav .fas{
 }
 
 @media only screen and (max-width: 400px){
+
+    .logo a{
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+    }
     
     .header-text{
         margin-top: 48%;
         font-size: 15px;
     }
     .header-text h1{
-        font-size: 54px;
+        font-size: 30px;
         /* padding-top: 15%; */
     }
     .header-text h2{
@@ -853,7 +860,7 @@ nav .fas{
         word-spacing: 5px;
     }
     .header-text h2 span{
-        font-size: 29px;
+        font-size: 28px;
     }
     .btn{
         display: block;
